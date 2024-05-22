@@ -1,0 +1,292 @@
+
+.shapka {
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 15px 60px 0px 50px;
+  display: flex;
+  align-items:center; 
+  border: 1px solid black;
+  background-color: black;
+	height: 70px;
+	justify-content: space-between;
+}
+
+.adomant {
+  height: 47px;
+  width: 205px;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 327px;
+}
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 460px;
+  margin-right: 350px;
+  margin-bottom: 15px;
+}
+input {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  border: 2px solid #2f3639;
+  border-radius: 20px;
+  outline: none;
+  background: white;
+  color: #9E9C9C;
+}
+.buttonn {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 52px;
+  height: 45px;
+  border: none;
+  background: #2f3639;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.results{
+  height: 60px;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Jura';
+}
+
+.acc{
+  position: relative; 
+  padding-right: 90px;
+  padding-bottom: 45px;
+  width: 1px;
+  height: 25px;
+  border: none;
+  background: black;
+  cursor: pointer;
+}
+
+.modal-header{
+  background-color: #000;
+}
+.modal-title {
+  font-family: 'Jura-Bold';
+  color: beige;
+  padding-left: 35%;
+}
+
+.btn-btn-secondary{
+  background-color: #000;
+  color:white;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 40px;
+  font-family: 'Jura';
+}
+
+.price{
+  position: fixed;
+  left: 1400px;
+  color: white;
+  font-family: 'Jura';
+}
+
+.korzina {
+  padding-left: 45px;
+}
+
+.prm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: black;
+  height: 700px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.jbs{
+  object-fit: cover;
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  position: relative;
+}
+
+#jobs-image {
+  position: relative;
+  background-color: aqua;
+  height: 700px;
+  width: 49%;
+  background-position: center;
+}
+
+.komp {
+  max-width: 600px;
+  right: 5%;
+  color:white;
+  position: absolute;
+  font-family: 'Jura';
+  font-size: 35px;
+  top: 146px;
+}
+.stiv-dzhobs {
+  color:white;
+  font-family: 'Jura-Bold';
+  font-size: 25px;
+  position: absolute;
+  right: 5%;
+  top: 450px;
+  }
+.biznesmen {
+  color:white;
+  font-family: 'Jura-Bold';
+  font-size: 20px;
+  position: absolute;
+  right: 5%;
+  top:480px;
+}
+#up {
+  background-color: white;
+  border-radius: 200px;
+  padding: 11px 10.5px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 560px;
+  left: 50%;
+}
+
+
+.assortiment {
+  height: 38px;
+  width: 168px; 
+  font-family: 'Jura-Bold';
+  font-size: 25px;
+  color: black;
+  position: relative;
+  padding-top:30px;
+  padding-bottom: 30px;
+  left:46%; 
+  font-weight: bold;
+  }
+
+.psort { 
+  display: inline-block; /*Задаем блочно-строчное отображение*/ 
+  background-size: 100% 100%;  
+  margin-left: 75px;
+  width: 391px;
+  height: 491px; 
+  padding-top: 25px;
+  overflow: hidden;
+  position: relataive;
+  align-items: center;
+}   
+
+.string { 
+  text-align: center; /*Равняем текст по-горизонтали*/ 
+  color: black;
+  font-family: 'Jura';
+  font-size: 20px;
+}
+
+.mouse0 {
+  width: 391px;
+  height: 391px;
+  background-size: 100% 100%;
+  background-position: center;
+  position: relative;
+}
+
+.div-seven {
+  padding: 15px 5px 97px;
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.div-six {
+  padding: 2px 136.8px 2px 136.2px;
+  display: flex;
+  align-items: flex-start;
+}
+.relative-wrapper-two {
+  position: relative;
+}
+
+footer {
+	background-color: #000;
+	height: 150px;
+	display: flex;
+  flex-direction: column; 
+	align-items: center;
+	justify-content: center;
+  position: relative;
+}
+
+nav {
+  display: flex;
+}
+.foot {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.o-nas {
+  font-family: 'Jura-Bold';
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 95px;
+  background-position: center;
+}
+
+.muriktima-ru {
+  font-family: 'Jura';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  left: calc(50% - 140px / 2);
+  position: absolute;
+  margin-bottom: 40px;
+}
+.f {
+  font-family: 'Jura';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 40px / 2);
+  margin-bottom: 60px;
+}
+
+.panel-socsetej {
+  position: absolute;
+}
+.vk {
+  width: 25px;
+  height: 25px;
+}
+.vk:not(:last-of-type) {
+  margin-right: 7px;
+}
+
+@font-face {
+	font-family: 'Jura'; 
+	src: local('Jura'),
+		url(/fonts/Jura-Regular.ttf); 
+}
+
+@font-face {
+	font-family: 'Jura-Bold'; 
+	src: local('Jura-Bold'),
+		url(/fonts/Jura-Bold.ttf); 
+}

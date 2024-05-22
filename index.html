@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADOMANT</title>
+    <script src="script.js"></script>
+    <link href="authorization.php">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <header>
+        <div class="shapka">
+          <p class="adomant">ADOMANT</p>
+          <form>
+            <input type="text" id="music" placeholder="Поиск по сайту..." aria-describedby="basic-addon1" onkeyup="findAlbum(this);">
+            <div class="results" id="result"></div>
+            <button class="buttonn">
+            <img
+            src="img/search.ico"/>
+            </button>
+          </form>
+          <button type="button" class="acc" data-bs-toggle="modal" data-bs-target="#exampleModal"><img 
+            class="accountt"
+            alt=""
+            src="img/acoount.ico"/>
+          </button>
+          <p class="price" id="sum">0</p>
+
+
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Авторизация</h5>
+              </div>
+              <form method="post" action="authorization.php" class="container-md">
+              <!-- <form class="container-md"> -->
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Мы никому не сообщим Вашу почту</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check text-center">
+                  <label class="form-check-label" id="exampleCheck1"></label>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn-btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                  <button type="submit" name="submit"  class="btn-btn-secondary">Войти</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div class = "prm">
+        <p class="komp">
+          Компьютер — это самый удивительный инструмент, с каким
+          я когда-либо сталкивался. Это велосипед для нашего
+          сознания.</p>
+        <p class="stiv-dzhobs">Стив Джобс</p>
+        <p class="biznesmen">Бизнесмен и изобретатель</p>
+        <div id="jobs-image">
+          <img
+            alt=""
+            class="jbs";
+            src="img/jobs.jpg"/>
+        </div>
+        <div id="up"><a href="#" style="color: #000;">
+          <img
+            alt=""
+            src="img/strelka.ico"/></a>
+        </div>
+      </div>
+    </div>
+      <section>
+        <p class="assortiment">Ассортимент</p>
+        <div class="psort">
+          <p><a href="http://127.0.0.1:5500/pc.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/pc0.jpg"/></p>
+            <p class="string">Компьютеры</a></p>
+        </div>
+        <div class="psort">
+           <p><a href="http://127.0.0.1:5500/mouse.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/mouse0.jpg"/></p>
+            <p class="string">Мышки</a></p>
+        </div>
+        <div class="psort">
+          <p><a href="http://127.0.0.1:5500/key.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/key0.jpg"/></p>
+            <p class="string">Клавиатуры</a></p>
+        </div>
+        <div class="psort">
+          <p><a href="http://127.0.0.1:5500/monitors.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/monic0.jpg"/></p>
+          <p class="string">Мониторы</a></p>
+        </div>
+        <div class="psort">
+          <p><a href="http://127.0.0.1:5500/micro.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/micro0.jpg"/></p>
+            <p class="string">Микрофоны</a></p>
+        </div>
+        <div class="psort">
+          <p><a href="http://127.0.0.1:5500/headphones.html?#" style="color: #000;text-decoration: none;"><img
+              alt=""
+              class="mouse0"
+              src="img/headph0.jpg"/></p>
+            <p class="string">Наушники</a></p>
+        </div>
+    </div>
+    </section>
+    <footer>
+      <nav class="foot">
+        <p class="o-nas">О нас</p>
+        <p class="f">Өфө</p>
+        <p class="muriktima-ru">muriktima@mail.ru</p>
+        <div class="panel-socsetej">
+          <a href="#"><img
+            alt=""
+            class="vk"
+            src="https://static.overlay-tech.com/assets/581b38a2-a24d-40fc-b88d-c23ceff9bbb2.png"/></a>
+          <a href="#"><img
+            alt=""
+            class="vk"
+            src="https://static.overlay-tech.com/assets/aa68d033-a7e0-4609-84e4-983098d8f00f.png"/></a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
